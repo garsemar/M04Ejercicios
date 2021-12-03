@@ -1,0 +1,42 @@
+body{
+    border: 1px solid black;
+    padding: 5px;
+}
+.figure1{
+    border: 1px solid black;
+    padding-bottom: 10%;
+    margin-right: 80%;
+}
+.figure2{
+    border: 5px solid black;
+    padding: 10px;
+}
+.figure3{
+    border: 1px solid orange;
+    margin: 10px;
+}
+.figure4{
+    border: 2px solid cyan;
+    border-radius: 10px;
+    padding: 5px;
+    padding-bottom: 5%;
+    margin-right: 60%;
+}
+.figure5{
+    border: 1px solid black;
+    padding-left: 30px;
+}
+.figure6{
+    border: 1px solid black;
+    margin-left: 30px;
+}
+.figure7{
+    border: 5px solid lightblue;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: left;
+    padding: 10px;
+    padding-bottom: 50px;
+    margin-left: 47%;
+    margin-right: 47%;
+}
