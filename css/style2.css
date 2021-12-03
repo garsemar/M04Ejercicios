@@ -5,12 +5,50 @@ h2{
     color: grey;
     text-decoration: underline;
 }
-.Franky, .Avi, .Tony{
-    color: red;
-}
 p{
     font-style: italic;
 }
 li{
     list-style-type: upper-roman;
+}
+.Franky:first-child{
+    font-style: italic;
+}
+.Franky{
+    background-color: green;
+    color: grey;
+}
+.Avi:first-child{
+    font-style: italic;
+}
+.Avi{
+    background-color: cyan;
+}
+.Tony{
+    background-color: red;
+    color: yellow;
+}
+.Boris{
+    color: red;
+    background-color: yellowgreen;
+    font-style: italic;
+}
+ol li:nth-child(3){
+    background-color: green;
+    color: grey;
+}
+ol li:nth-child(4){
+    background-color: cyan;
+    color: blue;
+}
+ol li:nth-child(5){
+    background-color: red;
+    color: yellow;
+}
+ol li:nth-child(6){
+    background-color: yellow;
+    color: red;
+}
+ul li a{
+    color: green;
 }
