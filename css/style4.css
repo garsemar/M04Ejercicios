@@ -1,0 +1,13 @@
+div{
+    margin: 10px;
+    background-color: aquamarine;
+    width: 10rem;
+    height: 8rem;
+    padding: 10px;
+}
+.firstD{
+    float: left;
+}
+.secondD{
+    float: right;
+}
