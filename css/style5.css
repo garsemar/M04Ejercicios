@@ -24,12 +24,47 @@ header{
     float: right;
     margin-right: 40%;
 }
-nav{
-    margin-top: 10px;
-    padding: 10px;
+.menu{
+    margin-top: 2px;
     background-color: lightgrey;
 }
-ol {
+.menu ul {
+    height: 20px;
+    margin-top: 2px;
+}
+.menu li{
+    padding: 0px 8.6%;
+    list-style: none;
     display: inline-block;
-    list-style-type: none;
+}
+main{
+    margin-top: 10px;
+}
+.one div{
+    background-color: lightgrey;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+}
+.two{
+    clear: both;
+    padding: 10px 0px;
+}
+.two div{
+    background-color: lightgrey;
+    margin-right: 10px;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+}
+.text p:first-child{
+    flex-basis: 49.5%;
+}
+.text p:last-child{
+    flex-basis: 49.5%;
 }
