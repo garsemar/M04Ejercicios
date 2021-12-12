@@ -58,13 +58,12 @@ main{
     height: 200px;
     float: left;
 }
-.text{
-    display: flex;
-    justify-content: space-between;
-}
 .text p:first-child{
-    flex-basis: 49.5%;
+    float: left;
+    width: 35%;
+    margin-right: 10px;
 }
 .text p:last-child{
-    flex-basis: 49.5%;
+    float: right;
+    width: 40%;
 }
