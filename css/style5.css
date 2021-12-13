@@ -67,3 +67,9 @@ main{
     float: right;
     width: 40%;
 }
+footer{
+    clear: both;
+    padding: 20px;
+    margin-top: 200px;
+    background-color: lightgrey;
+}
